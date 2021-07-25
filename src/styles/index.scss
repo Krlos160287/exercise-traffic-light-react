@@ -1,0 +1,38 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.traffic {
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display:flex;
+}
+.light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin:10px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{ 
+    background-color: green;
+}
+
+.bright{
+    box-shadow: 5px 5px 44px 28px #94d7f1;
+}
+.body {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 200px;
+    background-color: grey;
+}
